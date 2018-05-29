@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>ap</short-name>
+  <uri>/WEB-INF/classes/tlds/mapeamentoTagLib</uri>
+   <tag>
+      <name>listaApartamento</name>
+      <tagclass>tabajara.TagListaApartamento</tagclass>
+      <teiclass>tabajara.TagTEIListaApartamento</teiclass>
+      <bodycontent>JSP</bodycontent>
+   </tag>
+   <tag>
+      <name>listaApartamentoStatus</name>
+      <tagclass>tabajara.TagListaApartamentoStatus</tagclass>
+      <teiclass>tabajara.TagTEIListaApartamentoStatus</teiclass>
+      <bodycontent>JSP</bodycontent>
+   </tag>
+   <tag>
+      <name>listaApartamentoOcupado</name>
+      <tagclass>tabajara.TagListaApartamentoOcupado</tagclass>
+      <teiclass>tabajara.TagTEIListaApartamento</teiclass>
+      <bodycontent>JSP</bodycontent>
+   </tag>
+</taglib>
